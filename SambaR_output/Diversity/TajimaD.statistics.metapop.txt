@@ -1,0 +1,2 @@
+pop	mean_nsites	mean_pi	mean_maf	expected_pi	S	harmonic_number	Watterson	TajimaD	sd_pi	pi_scaled	pi_scaled_sd	Watterson_scaled	TajimaD_scaled	X2	pvalue	sign	rare_alleles	demography	selection
+metapop	100345	21774.87	0.15	30008.4	117680	5.69	20681.9	1093.76	7520.4013	0.217	0.0749	0.2061	0.0109	57.76	0	**	lack_of_rare	contraction	balancing

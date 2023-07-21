@@ -1,0 +1,73 @@
+---
+title: "IP Trumpeter Swan Population Genetics"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: 
+  - David W. Wolfson^[University of Minnesota, Minnesota Cooperative Fish and Wildlife Research Unit], John R. Fieberg^[University of Minnesota], David E. Andersen^[U.S. Geological Survey, Minnesota Cooperative Fish and Wildlife Research Unit], Sara J. Oyler-McCance^[U.S. Geological Survey], Sushma Reddy^[University of Minnesota]
+output: 
+  bookdown::word_document2:
+    fig_caption: yes
+    reference_docx: StylesTemplate.docx
+    always_allow_html: true
+bibliography: "Annual_MVMT_manuscript.bib"
+csl: http://www.zotero.org/styles/the-journal-of-wildlife-management
+link-citations: yes
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+
+```{r chunk-setup-options, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message=FALSE,
+                      warning=FALSE,
+                      fig.cap=TRUE,
+                      out.width = '100%',
+                      ft.keepnext=FALSE)
+```
+
+```{r flextable-settings, include=FALSE}
+flextable::set_flextable_defaults(
+    font.family = "New Times Roman",
+    font.size = 12,
+    text.align='center'
+  )
+```
+
+<!--- this is how to write a comment that won't knit--->
+
+<!--- --->
+
+```{r install packages}
+library(bookdown)
+library(rmarkdown)
+library(here)
+library(knitr)
+library(tidyverse)
+library(flextable)
+library(lubridate)
+library(ggpubr)
+library(patchwork)
+```
+
+```{r}
+options(scipen = 999)
+```
+
+
+
+**July 21st 2013: Following text copied from draft of annual movement draft intro**
+Migration is a common behavioral mechanism widely used by all major vertebrate groups (e.g. birds, fish, mammal, herpetofauna) that allows individuals to optimize seasonal availability of resources, thereby increasing long-term fitness [@fryxell1988; @milner-gulland2011; @barker2022]. Despite its prevalence as an ecological process and a large amount of research studies involving migration, the establishment of population-level migratory traditions is not well understood [@abrahms2021b]. Reasons for this discrepancy include the challenges of making population-level inference from observations of individuals, quantifying migratory movements along a continuum of variability, and the relative scarcity of successful reintroductions of formerly endangered migratory species [@mueller2011a; @senner2020a]. 
+
+Once established, the mechanisms that underlie transmission of migratory information between generations can be influenced both genetically and through social learning [@akesson2020].
+For some species with short lifespans (e.g. songbirds), migration is considered innate and primarily due to genetics based on observations of individuals that complete their first migrations independently without parents or other conspecifics to guide them [@berthold1991].
+For many species with long generation times and high levels of parental care, migration behavior is considered to be primarily passed on through social learning, although the amount of time required for information transfer is not well understood across species [@mueller2013].
+Collective knowledge has been shown to accumulate over generations to drive migration patterns and improve efficiency in flocking species with socially learned migration behaviors, [@sasaki2017] although in reintroduced populations of Whooping Cranes (Grus americana) that were initially trained (i.e., learned) to migrate by following aircraft, migratory efficiency of flocks rapidly increased when older individuals were present [@mueller2013].
+
+Similar to other large, long-lived avian species such as geese, cranes and storks, adult swans take care of their young for the first year of life, providing food, protections, and guiding them on their first migration cycle [@chernetsov2004a; @mueller2013a].
+As a consequence, cultural transmission during the first year is thought to be the primary mechanism that dictates the learned migration patterns used in subsequent years [@sutherland1998].
+
+Although this transfer of information is an effective mechanism for preserving migratory patterns through generations, it is unclear how these trends become established when a formerly extirpated population has been reintroduced on a landscape.
+@jesmer2018 found that newly translocated populations initially lost their migratory tendencies and that it took many generations to re-establish such patterns.
+
+**See annual mvmt zotero library for sources**
